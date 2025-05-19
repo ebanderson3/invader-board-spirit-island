@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '../app.css';
-	//import OceanTerrain.png from $lib/static/si-assets
 
 	let { children } = $props();
 </script>
