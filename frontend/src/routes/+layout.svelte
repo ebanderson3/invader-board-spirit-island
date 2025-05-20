@@ -11,7 +11,7 @@
 
 <style>
 	.bg-tiled {
-		background-image: url('$lib/static/si-assets/Ocean_Terrain.png');
+		background-image: url('$lib/static/si-assets/OceanTerrain.png');
 		background-repeat: repeat;
 	}
 </style>
