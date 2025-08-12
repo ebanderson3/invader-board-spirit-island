@@ -15,6 +15,8 @@ interface GameState {
     supportingAdversary: string;
     leadingAdversaryLevel: number;
     supportingAdversaryLevel: number;
+    minDifficulty: number;
+    maxDifficulty: number;
 
     // State established during setup
     blightCard: string[];
@@ -40,15 +42,17 @@ interface GameState {
 
 const initialState: GameState = {
     activeExpansions: [],
-    isUsingBlightCard: false,
-    isUsingEvents: false,
-    isUsingAdversaries: false,
+    isUsingBlightCard: true,
+    isUsingEvents: true,
+    isUsingAdversaries: true,
     isUsingScenarios: false,
-    numberOfSpirits: 0,
+    numberOfSpirits: 1,
     leadingAdversary: "",
     supportingAdversary: "",
     leadingAdversaryLevel: 0,
     supportingAdversaryLevel: 0,
+    minDifficulty: 1,
+    maxDifficulty: 10,
     blightCard: [],
     invaderDeck: [],
     eventDeck: [],
@@ -65,7 +69,7 @@ const initialState: GameState = {
     isBlightedIsland: false,
     blightOnCard: 0,
     blightDiscard: [],
-    terrorLevel: 0
+    terrorLevel: 1
 };
 
 // Create the store with $state
