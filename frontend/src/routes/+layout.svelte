@@ -13,5 +13,7 @@
 	.bg-tiled {
 		background-image: url('$lib/static/si-assets/OceanTerrain.png');
 		background-repeat: repeat;
+		background-position: top left;
+		background-attachment: fixed;
 	}
 </style>
