@@ -3,6 +3,6 @@
 	import { onMount } from "svelte";
 
     onMount(() => {
-        goto('game/0');
+        goto('config');
     })
 </script>
